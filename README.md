@@ -44,7 +44,11 @@ This lab was set up through Hack the Box's own Pwnbox. The first half involves r
   6. Unlock the Account for user "Adam Masters" who locked themselves out (Open Powershell terminal --> Type command _"PS C:\htb> Unlock-ADAccount -Identity amasters"_)
   ![HTB_Lab1_UNlockUser](https://github.com/OGkevq/HTB-Active-Directory/assets/159976397/34b7e80c-f531-4e8e-8239-291c53c9ceaa)
   Ref6: Unlocking a user via Powershell
-  7. 
-  8. r
-  9. e
-    
+  7. Create a new OU called Security analyst and add the new users to the OU
+     i Under HQ-NYC, select IT, right click and select "new"--> "Organizational Unit". Input the name "Security Analysts", select domain local, and click ok. Drang new users into OU. 
+     ![HTB_Lab1_NewOU](https://github.com/OGkevq/HTB-Active-Directory/assets/159976397/733f78d4-c4cd-4665-9492-35b85ea5de0d)
+     Ref6: Image of new Users in the newly created Security Analysts OU
+  
+  8. Right click on new OU and select "new"--> "Group"
+  9. Right-click on new users and select "Add to group"
+  
