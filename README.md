@@ -10,6 +10,7 @@ Gain a comprehensive understanding of Active Directory(AD) functionality and sch
 - Investigate AD objects and structures to learn about their roles
 - Explore AD functionality through PowerShell command line and a GUI interface
 - Perform tasks commonly done in a Cybersecurity and IAM workspace including adding users, removing users, creating Organizational Units (OUs), and managing groups
+- Management of user accounts, roles, and permissions.
 
 ### Tools Used
 
